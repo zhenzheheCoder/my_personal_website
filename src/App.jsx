@@ -15,8 +15,6 @@ function App() {
       <Home />
       <Projects />
       <Services />
-      <Blog />
-      <Testimonials />
       <Contact />
       <Footer />
       <ScrollToTop />

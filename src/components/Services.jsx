@@ -18,11 +18,7 @@ const Services = () => {
               <div>
                 <h3 className="text-xl font-bold">{service.title}</h3>
                 <p className="opacity-80 mt-4 text-[0.9rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus similique expedita excepturi facere. Tempora dicta
-                  sequi enim cumque sunt ipsum officiis temporibus, sapiente
-                  aperiam distinctio voluptatum facere? Consequatur, esse
-                  libero.
+                 {service.info}
                 </p>
               </div>
             </div>

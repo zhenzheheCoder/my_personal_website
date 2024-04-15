@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import CardContainer from "./CardContainer"
+import Card from "./Card"
 import { btns } from "../Data";
 import { projects } from "../Data";
 import { motion, AnimatePresence } from "framer-motion";
@@ -15,11 +17,12 @@ const Projects = () => {
     btnType !== "all"
       ? setFilterImages(newFilterImages)
       : setFilterImages(projects);
+    
   };
   return (
     <div className="section" id="projects">
       <div className="mb-8">
-        <h2 className="text-[1.5rem] font-bold">My Collections</h2>
+        <h2 className="text-[1.5rem] font-bold">My Experiences and Projects</h2>
         <div className=" w-14 h-[3px] rounded-sm bg-blue"></div>
       </div>
       <div className="mt-4 flex flex-wrap gap-8">
@@ -32,7 +35,7 @@ const Projects = () => {
         })}
       </div>
       <AnimatePresence>
-        <motion.div className="grid sm:grid-cols-2 md:grid-cols-3 mt-12 gap-3">
+        <motion.div className="">
           {filterImages &&
             filterImages.map((filterImage) => {
               return (
@@ -43,7 +46,7 @@ const Projects = () => {
                   exit={{ opacity: 0, transition: { duration: 0.3 } }}
                   key={filterImage.id}
                 >
-                  <motion.img src={filterImage.image} alt="" />
+                <Card obj={filterImage}/>
                 </motion.div>
               );
             })}

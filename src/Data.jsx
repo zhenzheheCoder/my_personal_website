@@ -1,9 +1,11 @@
 import { ImPencil } from "react-icons/im";
 import { BsShop, BsHeart, BsWatch, BsStar } from "react-icons/bs";
+import { IoLogoWechat } from "react-icons/io5";
+import { DiAndroid } from "react-icons/di";
 import { BiCoffeeTogo } from "react-icons/bi";
 import { TiDeviceDesktop } from "react-icons/ti";
 import { TbSpeakerphone } from "react-icons/tb";
-
+import { SiLeetcode } from "react-icons/si";
 import project1 from "./assets/project1.jpg";
 import project2 from "./assets/project2.jpg";
 import project3 from "./assets/project3.jpg";
@@ -41,16 +43,7 @@ export const navLinks = [
     text: "Services",
     href: "services",
   },
-  {
-    id: 4,
-    text: "Blog",
-    href: "blog",
-  },
-  {
-    id: 5,
-    text: "Testimonials",
-    href: "testimonials",
-  },
+  
   {
     id: 6,
     text: "Contact",
@@ -62,93 +55,115 @@ export const services = [
   {
     id: 1,
     icon: <ImPencil />,
-    title: "Copywrite",
+    title: "Backend",
+    info:"I am most fonded with backend! I love to think and learn about the logic and designs of complext and large systems. I mainly use SpringBoot and Gin for backend programming. I also have experience in Microservice and distributed plateforms, with Spring Cloud framework."
   },
   {
     id: 2,
-    icon: <BsShop />,
-    title: "Ecommerce",
+    icon: <TiDeviceDesktop  />,
+    title: "Full-Stack",
+    info:"As you can probably tell, I designed this website using React.JS. I am experience in both front and backend development. I have also designed UI interfaces using MATLAB for physics experiments. "
   },
   {
     id: 3,
-    icon: <TiDeviceDesktop />,
-    title: "Web Design",
+    icon: <DiAndroid/>,
+    title: "Android",
+    info:"I learned to develop in Android during working at Santa Clara University, where I designed applications for illness diagnosis from test strips. I am familiar with android camera development, Camera2 SDK and OpenCV SDK."
   },
-  {
-    id: 4,
-    icon: <TbSpeakerphone />,
-    title: "Marketing",
-  },
+  
 ];
 export const serviceFinishes = [
-  {
-    id: 1,
-    icon: <BsHeart />,
-    text: "Happy Clients",
-    amount: 566,
-  },
+  
   {
     id: 2,
     icon: <BsWatch />,
-    text: "Working Hours",
+    text: "Coding Hours",
     amount: 5335,
   },
-  {
-    id: 3,
-    icon: <BsStar />,
-    text: "Awards Won",
-    amount: 13,
-  },
+  
   {
     id: 4,
     icon: <BiCoffeeTogo />,
     text: "Coffee Consumed",
-    amount: 1189,
+    amount: 189,
   },
+  {
+    id: 5,
+    icon: <SiLeetcode />,
+    text: "LeetCode Problems Solved",
+    amount: 1435,
+  },
+  
+  
 ];
 export const btns = [
-  { id: 1, name: "All", value: "all" },
-  { id: 2, name: "UI/UX", value: "ui/ux" },
-  { id: 3, name: "Web Design", value: "web design" },
-  { id: 4, name: "Marketing", value: "marketing" },
+  { id: 1, name: "Experience", value: "experience" },
+  { id: 3, name: "Projects", value: "projects" },
+     
 ];
 
 export const projects = [
   {
     id: 1,
     image: project1,
-    value: "web design",
+    value: "experience",
+    name:"Backend/Android Student Software Developer",
+    location: "Santa Clara University",
+    info: ['Participated in a group of three to develop an Android application and leading in developing the Backend server using Java and Spring Cloud.',
+      "Developed Mirco-service based backend server for user service and image service support using SpringBoot, deployed on AWSEC2 Linux with Docker. Deployed AWS S3 for image storage and MySQL for user information storage. Established Nginxfor reverse proxy abilities.",
+      "Integrated Microservice structure in backend service with Eureka and Spring Gateway. Utilized Reactor Model via Netty for multi-threading capabilities and RabbitMQ as message queue. Ensured stable requests for 2000+ QPS.",
+      "Designed relational database form via MySQL for user information storage. Accelerated login requests by 80%."]
   },
   {
-    id: 2,
-    image: project2,
-    value: "ui/ux",
+    
+      id: 2,
+      image: project2,
+      value: "experience",
+      name:"Software Developer Intern",
+      location: "NeuroLeap",
+      info: ['Worked as a group of about 50 people to develop and maintain a clinical program that diagnoses possible early stage autistic disorder using GoLang.',
+        "Introduced report documentation with user text-input and image-input using Quill.JS in front-end via React.JS and Node.JS. Achieved user satisfaction rate up to 90%",
+        "Used MongoDB to store file and user pairs on AWS S3. Implemented Redis as cache for popular user and data, resulted in 30% decrease in response time in fetching report files.",
+        "Deployed goose for creating and updating a table for report in databases with PostgreSQL. Successfully applied version control for database and prevented database version conflict."]
+    
   },
   {
     id: 3,
     image: project3,
-    value: "ui/ux",
+    value: "experience",
+    name: "Student Software Developer",
+    location: "University of California, San Diego",
+    info: ['Constructed GUI for monitoring, controlling and acquiring data from Voltage generator and Current generator using MATLAB. Helped to make experiment data acquisition more efficient(Decreased time consumption by half).',
+        "Implemented and trouble-shoot a simulation program using Python for magnet’s magnetic fields with different sizes based on experiment requirements.",
+        "Formulated a program with MATLAB to locate and move sample to optimal location for experiment magnetic field. Increase calculation from previous version by 60% through implementing binary search algorithms.",
+        "Located and updated previous control programs with MATLAB for reading and controlling voltage generator, current generator, electrical motor platform, etc. (Lines of code: more than 10000). Prevented catastrophic experimental failure."]
   },
   {
     id: 4,
-    image: project4,
-    value: "web design",
+    image: project1,
+    value: "projects",
+    name:"Chat",
+    location: "May 2023 - July 2023",
+    info: ['Worked as group leader in a group of 4 to created a full-stack, distributed chatting platform that realized chatting, adding contacts, single-device-login using Java and SpringBoot.',
+      "Initiated Eureka for general service discovery purposes and SpringWeb Gateway for directing requests. Successfully integrateMicroService with 5 distributed service servers and 10+ RESTful APIs.",
+      "Integrated Microservice structure in backend service with Eureka and Spring Gateway. Utilized Reactor Model via Netty for multi-threading capabilities and RabbitMQ as message queue. Ensured stable requests for 2000+ QPS.",
+      "Designed relational database form via MySQL for user information storage. Accelerated login requests by 80%."]
   },
   {
-    id: 5,
-    image: project5,
-    value: "ui/ux",
+    
+      id: 5,
+      image: project2,
+      value: "projects",
+      name:"File upload plateform",
+      location: "March 2023-May 2023",
+      info: ['Developed a online file storage system using GoLang and React.JS on which users can register their own accounts and upload files and download files.',
+        "Designed and implemented front-end webpages using React.js. Enabled file drop zone using Dropzone.JS, making file upload more intuitive.",
+        "Implemented the back-end with Gin and Golang, used AWS S3 to store users’ uploaded files. Leveraged MongoDB to store users’ account information (password, username, files, etc.)",
+        "Designed and maintained RESTful APIs that ensures successful connection between frond and back-end."]
+    
   },
-  {
-    id: 6,
-    image: project6,
-    value: "marketing",
-  },
-  {
-    id: 7,
-    image: project7,
-    value: "marketing",
-  },
+  
+  
 ];
 
 export const blogs = [
@@ -199,16 +214,17 @@ export const contacts = [
   {
     id: 1,
     icon: <TfiHeadphoneAlt />,
-    text: "+959-883-271-929",
+    text: "+1 858-531-3105",
   },
-  {
-    id: 2,
-    icon: <HiOutlineLocationMarker />,
-    text: "28 Green Tower, street Name, New York, USA",
-  },
+  
   {
     id: 3,
     icon: <GoMailRead />,
-    text: "jhonsmitch2002@gmail.com",
+    text: "zhenzhehe24@gmail.com",
   },
+  {
+    id: 2,
+    icon:<IoLogoWechat />, 
+    text:"hzz_hustle"
+  }
 ];

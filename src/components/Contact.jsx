@@ -20,42 +20,8 @@ const Contact = () => {
             );
           })}
         </div>
-        <div className="mt-8 flex  gap-12 flex-wrap justify-center">
-          <div>
-            <div className="mb-5">
-              <input
-                type="text"
-                className="outline-none bg-transparent border border-solid border-blue p-2 text-[0.9rem]"
-                placeholder="Name"
-              />
-            </div>
-            <div className="mb-5">
-              <input
-                type="text"
-                className="outline-none bg-transparent border border-solid border-blue p-2 text-[0.9rem]"
-                placeholder="Email"
-              />
-            </div>
-            <div className="mb-5">
-              <input
-                type="text"
-                className="outline-none bg-transparent border border-solid border-blue p-2 text-[0.9rem]"
-                placeholder="Budget"
-              />
-            </div>
-          </div>
-          <div>
-            <textarea
-              placeholder="Project Description"
-              className="outline-none bg-transparent border border-solid border-blue resize-none text-[0.9rem] p-2 h-40 w-80"
-            ></textarea>
-            <div className="mt-2 text-end">
-              <a href="" className="text-[0.9rem] text-blue">
-                Send message
-              </a>
-            </div>
-          </div>
-        </div>
+        
+        
       </div>
     </div>
   );

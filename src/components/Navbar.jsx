@@ -19,10 +19,10 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-2">
         <div className="flex items-center gap-2">
           <div className="rounded-full w-8 h-8 bg-blue flex items-center justify-center text-white font-bold">
-            A
+            ZH
           </div>
           <p className="text-xl">
-            Alex <span className="opacity-80">Smith</span>
+            Zhenzhe <span className="opacity-80">He</span>
           </p>
         </div>
         <div className="md:flex hidden items-center gap-6">
