@@ -78,21 +78,27 @@ export const serviceFinishes = [
     id: 2,
     icon: <BsWatch />,
     text: "Coding Hours",
-    amount: 5335,
+    amount: 5490,
   },
   
   {
     id: 4,
     icon: <BiCoffeeTogo />,
     text: "Coffee Consumed",
-    amount: 189,
+    amount: 300,
   },
   {
     id: 5,
     icon: <SiLeetcode />,
     text: "LeetCode Problems Solved",
-    amount: 1435,
+    amount: 1490,
   },
+  {
+    id: 6,
+    icon: <SiLeetcode />,
+    text: "LeetCode Weekly Contest Score",
+    amount: 2190,
+  }
   
   
 ];
