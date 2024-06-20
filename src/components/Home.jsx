@@ -26,7 +26,7 @@ const Home = () => {
           </p>
           <div className="flex mt-4 gap-4">
             <a
-              href="https://drive.google.com/file/d/1jjBdxs_WMLEHV_Kc_gdD601qjoE6RINZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1AQn9VeqhkdsPo4ugRasKm3-PGGQeCbZM/view?usp=share_link"
               className="py-2 px-4 border-[2px] border-solid border-blue text-[0.9rem] rounded-[2.2rem] shadow-md"
             >
               View Resume
