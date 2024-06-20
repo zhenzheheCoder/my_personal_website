@@ -104,6 +104,17 @@ export const btns = [
 
 export const projects = [
   {
+    id: 0,
+    image: project1,
+    value: "experience",
+    name:"Software Engineer Intern",
+    location: "Photonicare, Inc",
+    info: ["Worked in a group of 4 to develop test suite and webpage for OtoScope, a mid-ear imaging medical device.",
+      "Used Python to automate manual testing, increasing testing efficency by 80% and accuracy by 50%.",
+      "Developed web pages to fetch, display and monitor imaging results and reports using React.JS."
+    ]
+  },
+  {
     id: 1,
     image: project1,
     value: "experience",
