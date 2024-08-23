@@ -115,9 +115,12 @@ export const projects = [
     value: "experience",
     name:"Software Engineer Intern",
     location: "Photonicare, Inc",
-    info: ["Worked in a group of 4 to develop test suite and webpage for OtoScope, a mid-ear imaging medical device.",
-      "Used Python to automate manual testing, increasing testing efficency by 80% and accuracy by 50%.",
-      "Developed web pages to fetch, display and monitor imaging results and reports using React.JS."
+    info: ["Implemented a pipline for uploading and downloading firmware to Otosight, a mid ear medical scanning device based on Linux, with Cpp. Used Python to develop firmware upload script. Improved efficiency compared to manual update process.",
+      "Designed and implemented a remote update for Otosight using Cpp and QT. Enabled multithreading for downloading firmware in the background.",
+      "Adopted efficient memory management for write-buffer write and flush by limiting data chunks to be less than buffer size. Prevented overflow and leakage during the handling of GB-sized firmware downloads.",
+      "Designed and implemented dynamic UI for Otosight in download notifications, progress and error message display using QML.",
+      "Fetched ML-analyzed data of medical scans from backend with Axios. Rendered semi-transparent mask from the data using Canvas to serve as illness indication. Optimized rendering to finish in less than 3s.",
+      "Implemented Lazy Loading with IntersectionObserver and ScollEventListener on mask loading. Decreased initial loading time by 66%."
     ]
   },
   {
@@ -171,12 +174,12 @@ export const projects = [
       id: 5,
       image: project2,
       value: "projects",
-      name:"File upload plateform",
-      location: "March 2023-May 2023",
-      info: ['Developed a online file storage system using GoLang and React.JS on which users can register their own accounts and upload files and download files.',
-        "Designed and implemented front-end webpages using React.js. Enabled file drop zone using Dropzone.JS, making file upload more intuitive.",
-        "Implemented the back-end with Gin and Golang, used AWS S3 to store users’ uploaded files. Leveraged MongoDB to store users’ account information (password, username, files, etc.)",
-        "Designed and maintained RESTful APIs that ensures successful connection between frond and back-end."]
+      name:"redBlog",
+      location: "Aug 2024 - Present",
+      info: ['Led a team of six to create a online blog. Responsible for designing and building front-end fans page and back-end development.',
+        "Leveraged GraphQL API for registration, user look up and posting. Adopted a more code efficient API design compared to RESTful API.",
+        "Used Nginx to host the front-end webpage, resolved CORS issue on front-end.",
+        "Developed gRPC framework for internal service calls."]
     
   },
   
