@@ -17,7 +17,7 @@ const Home = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="text-grey sm:text-[1.25rem] mb-4">MSCS@Santa Clara University</div>
+          <div className="text-grey sm:text-[1.25rem] mb-4">SDE@Bytedance/Tiktok</div>
           <h2 className="text-[2rem] sm:text-[3rem] font-bold mb-4">
             Zhenzhe(Andreas) He
           </h2>
