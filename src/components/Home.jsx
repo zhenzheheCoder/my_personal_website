@@ -22,7 +22,7 @@ const Home = () => {
             Zhenzhe(Andreas) He
           </h2>
           <p className="opacity-80 text-[0.9rem]">
-            Hello world! I am Zhenzhe. I am a Computer Science master student@Santa Clara University. I used to study Physics and Electrical and Computer Engineering at University of California, San Diego. My coding experience started in September 2022. I am fluent in Java, Golang, Python, MATLAB and C++. 
+            Hello world! I am Zhenzhe. I will be joining Bytedance/Tiktok as a backend software engineer this upcoming April! I am a Computer Science master student@Santa Clara University. I used to study Physics and Electrical and Computer Engineering at University of California, San Diego. My coding experience started in September 2022. I am fluent in Java, Golang, Python, MATLAB and C++. 
           </p>
           <div className="flex mt-4 gap-4">
             <a

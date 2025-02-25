@@ -110,7 +110,16 @@ export const btns = [
 
 export const projects = [
   {
-    id: 0,
+    id:0,
+    image: project1,
+    value: "experience",
+    name:"Backend Software Engineer",
+    location: "Bytedance/Tiktok, Global E-commerce",
+    info: ["I will be joining this upcoming April."
+    ]
+  },
+  {
+    id: 1,
     image: project1,
     value: "experience",
     name:"Software Engineer Intern",
@@ -124,7 +133,7 @@ export const projects = [
     ]
   },
   {
-    id: 1,
+    id: 2,
     image: project1,
     value: "experience",
     name:"Backend/Android Student Software Developer",
@@ -136,7 +145,7 @@ export const projects = [
   },
   {
     
-      id: 2,
+      id: 3,
       image: project2,
       value: "experience",
       name:"Software Developer Intern",
@@ -148,7 +157,7 @@ export const projects = [
     
   },
   {
-    id: 3,
+    id: 4,
     image: project3,
     value: "experience",
     name: "Student Software Developer",
@@ -159,7 +168,7 @@ export const projects = [
         "Located and updated previous control programs with MATLAB for reading and controlling voltage generator, current generator, electrical motor platform, etc. (Lines of code: more than 10000). Prevented catastrophic experimental failure."]
   },
   {
-    id: 4,
+    id: 5,
     image: project1,
     value: "projects",
     name:"Chat",
@@ -171,7 +180,7 @@ export const projects = [
   },
   {
     
-      id: 5,
+      id: 6,
       image: project2,
       value: "projects",
       name:"redBlog",
